@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO AVANTY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- INICIO DEL NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <img style="width: 50px;" src="img/finalasaso.png" alt="logo-cinytec" class="img-fluid mr-1">
+            <a class="navbar-brand" href="/">AVANTY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- FIN DEL NAVBAR -->
+
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 style="color: white;text-align: center;margin-bottom: 10px;margin-top: 10px;">Contactame</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+
+                <div class="container">
+                    <h2 style="text-align: center;color: gray;padding-bottom: 30px;">Ponte en contacto con nuestro
+                        equipo de Comunicaciones</h2>
+                </div>
+
+
+
+                <!-- inicio prueba -->
+
+                <div class="formulario mt-5">
+                    <div class="row">
+                        <div class="col-md-6 pb-3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62444.89691860058!2d-77.12059604189251!3d-11.987917775584581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce6e64e51b9b%3A0x6a172d7ee033e802!2sSan%20Mart%C3%ADn%20de%20Porres!5e0!3m2!1ses-419!2spe!4v1596553292945!5m2!1ses-419!2spe"
+                                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+
+                            <div class="row mt-3">
+                                <div class="col-md-4 text-primary font-weight-bold"> <i class="fa fa-phone"></i> +51
+                                    922875025 </div>
+                                <div class="col-md-5 text-primary font-weight-bold"> <i class="fa fa-envelope"></i>
+                                    info@cinytecperu.com</div>
+                                <div class="col-md-3 text-primary font-weight-bold"> <i class="fa fa-map"></i> Lima
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                                <div class="control-group">
+                                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                        <label>Nombre</label>
+                                        <input class="form-control" id="name" type="text" placeholder="Nombre"
+                                            required="required"
+                                            data-validation-required-message="Please enter your name." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                        <label>Correo Electronico</label>
+                                        <input class="form-control" id="email" type="email"
+                                            placeholder="Correo Electronico" required="required"
+                                            data-validation-required-message="Please enter your email address." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                        <label>Numero Telefonico</label>
+                                        <input class="form-control" id="phone" type="tel"
+                                            placeholder="Numero Telefonico" required="required"
+                                            data-validation-required-message="Porfavor Ingrese su numero Telefonicp." />
+                                        <p class="help-block text-danger"></p>
+
+                                        <select id="pais">
+                                            <option value="">SELECCIONE UN PAIS</option>
+                                            <option value="+54">ARGENTINA</option>
+                                            <option value="+56">CHILE</option>
+                                            <option value="+52">MEXICO</option>
+                                            <option value="+51">PERÚ</option>
+                                        </select>
+                                        <br>
+
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                        <label>Mensaje</label>
+                                        <textarea class="form-control" id="message" rows="5" placeholder="Mensaje"
+                                            required="required"
+                                            data-validation-required-message="Please enter a message."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <br />
+                                <div id="success"></div>
+                                <div class="form-group"><button class="btn btn-success btn-xl" id="sendMessageButton"
+                                        type="submit">Enviar <img style="width: 30px;" src="img/pngocean.com (62).png"
+                                            alt=""> </button></div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <!-- fin prieba -->
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- WhatsApp -->
+    <div style="position:fixed;z-index:900;bottom:90px;right:14px">
+        <div style="width:70px;height:70px;float:left;overflow:hidden">
+            <a href="https://api.whatsapp.com/send?phone=+51%20973730405&text=!COMUNICATE%20CON%20AVANTY%C2%A1"
+                target="_blank"><img src="img/whatsapp.png" class="img-fluid"></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="sticky-footer" style="position: relative;" class="py-4 bg-dark mb-3">
+
+        <div class="container text-center text-white mt-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href=""> <i class="fa fa-facebook mr-3"> <img src="img/facebook (1).png" style="width: 30px;"
+                                alt=""></i> </a>
+                    <a href=""> <i class="fa fa-facebook mr-3"> <img src="img/instagram (1).png" style="width: 30px;"
+                                alt=""></i> </a>
+                    <a href=""> <i class="fa fa-facebook mr-3"> <img src="img/youtube (2).png" style="width: 30px;"
+                                alt=""></i> </a>
+                </div>
+                <div class="col-md-7"><small>Copyright &copy; AVANTY</small></div>
+                <div class="col-md-3"><small>Desarrollado por: <a href="" target="_Blank" class="text-white">AVANTY</a>
+                    </small></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+
+</body>
+
+</html>

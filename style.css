@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    }
+
+
+    
+    .navbar {
+        background-image: url("img/luces.jpg");
+        /* The image used */
+        background-color: #cccccc;
+        /* Used if the image is unavailable */
+        height: 200px;
+        /* You must set a specified height */
+        
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+        background-attachment: fixed;
+    }
+
+
+    .separator {
+        background-image: url("img/difuminado.jpg");
+        /* The image used */
+        background-color: #cccccc;
+        /* Used if the image is unavailable */
+        height: 500px;
+        /* You must set a specified height */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+        background-attachment: fixed;
+    }
+
+
+#tamaños {
+    height: 400px;
+}
